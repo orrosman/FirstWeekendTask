@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', Arial, sans-serif;
     position: relative;
+
 }
 
 section{
@@ -74,7 +75,7 @@ header{
     .nav_link{
         display: block;
         text-decoration: none;
-        margin-right: 25px;
+        margin-right: 1rem;
         color: #000;
     }
     .nav_link:hover{
