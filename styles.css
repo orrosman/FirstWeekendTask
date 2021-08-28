@@ -1,7 +1,8 @@
 body{
     font-family: 'Open Sans', Arial, sans-serif;
     position: relative;
-
+    background-color: #35383b;
+    color:  #ece9e9;
 }
 
 section{
@@ -22,8 +23,9 @@ header{
     left: 0;
     height: 100%;
     background-color: #a0d7ec;
+    color: #000;
     border: 3px solid;
-    padding-top: 40px;;
+    padding-top: 40px;
     }
   
     .navbar_list{
@@ -60,6 +62,7 @@ header{
   @media (max-width: 700px) {
     #navbar{
         background-color: #a0d7ec;
+        color: #000;
         position: fixed;
         top: 0;
         left: 0;
