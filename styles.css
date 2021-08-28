@@ -8,6 +8,7 @@ section{
 }
 code{
     font-size: larger;
+    font-weight: bold;
 }
 header{
     text-align: center;
@@ -21,6 +22,7 @@ header{
     height: 100%;
     background-color: #a0d7ec;
     border: 3px solid;
+    padding-top: 40px;;
     }
   
     .navbar_list{
@@ -29,16 +31,20 @@ header{
         width: 90px;
         padding-left: 3px;
     }
+
     .nav_link{
-        color: rgb(14, 14, 14);
+        color: #000;
         font-size: 16px;
         text-decoration: none;
-        
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 11px;
+        width: 107px;
+    }
+    .nav_link:hover{
+        background-color: #1da357;
     }
     #main-doc{
-        padding-left: 110px;
+        padding-left: 120px;
     }
     
     img{
@@ -55,6 +61,7 @@ header{
         background-color: #a0d7ec;
         position: fixed;
         top: 0;
+        left: 0;
         width: 100%;
         border: 3px solid;
         }
@@ -66,7 +73,12 @@ header{
         }
     .nav_link{
         display: block;
+        text-decoration: none;
         margin-right: 25px;
+        color: #000;
+    }
+    .nav_link:hover{
+        background-color: #1da357;
     }
 
     img{
