@@ -6,7 +6,7 @@ body{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
 }
 code{
     font-size: larger;
@@ -40,11 +40,11 @@ header{
         font-size: 16px;
         text-decoration: none;
         display: block;
-        margin-bottom: 11px;
+        margin-bottom: 15px;
         width: 107px;
     }
     .nav_link:hover{
-        background-color: #1da357;
+        background-color: #f0da7b;
     }
     #main-doc{
         padding-left: 120px;
@@ -82,7 +82,7 @@ header{
         color: #000;
     }
     .nav_link:hover{
-        background-color: #1da357;
+        background-color: #f0da7b;
     }
 
     img{
